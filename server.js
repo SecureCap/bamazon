@@ -1,6 +1,5 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-var table = require("cli-table");
 
 
 //create the connection information for the sql database
@@ -32,7 +31,7 @@ function displayProducts() {
     });
 };
 
-function displayProducts() {
+function productSearch() {
     inquirer
      .prompt([
          { type: "input",
@@ -42,7 +41,7 @@ function displayProducts() {
                if(value.toLowerCase() === 'q') {
                    process.exit(0);
                }
-               if (isNaN(value) === false && parseInt(value) <= displayProducts && parseInt(value > 0)) {
+               if (isNaN(value) === false && parseInt(value) <= productSearch && parseInt(value > 0)) {
                    return true;
                }
                return false;
@@ -80,5 +79,10 @@ function displayProducts() {
     });
 };
 
+
+
+// for (var i = 0; i < res.length; i++) {
+//     table.push([res[i].id, res[i].product_name, res[i].department_name, "$" + res[i].price, res[i].stock_quanity]);
+// };
 
   
