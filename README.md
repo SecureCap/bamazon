@@ -3,11 +3,11 @@
  - An Amazon-like storefront web application. The app will take in orders from customers and deplete stock from the store's inventory. You can also program the app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 
 
- #Bamazon Customer
+ # Bamazon Customer
  - Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
  - Once the customer has placed the order, the application will check if the stores inventory has enough of the product to meet the customer's request.
 
- #Bamazon Manager
+ # Bamazon Manager
 - Running this application will list a set a menu options:
     - View Products for Sale
 
@@ -25,8 +25,8 @@
 
 - If a manager selects Add New Product, it will allow the manager to add a completely new product to the store.
 
- #Bamazon Executive
+ # Bamazon Executive
 
- #DEMO
+ # DEMO
  ![Bamazon Display](/images/Webp.net-resizeimage.png)
  
