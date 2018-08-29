@@ -28,4 +28,5 @@
  #Bamazon Executive
 
  #DEMO
+ ![Bamazon Display](/images/Webp.net-resizeimage.png)
  
