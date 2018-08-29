@@ -1,5 +1,4 @@
 var mysql = require('mysql');
-
 var inquirer = require('inquirer');
 
 
@@ -43,10 +42,6 @@ function menu() {
 
 
 function buyProduct() {
-    connection.query('SELECT id, product_name, department_name, price, stock_quantity FROM products', function (err, res) {
-        if (err) throw err;
-       console.log(res);
-    });
             inquirer
             .prompt([{
                     name: "id",
